@@ -1,25 +1,9 @@
-def garo_count(input_list):
-    total_cnt = 0
-    for i  in range(N):
-        d1_list = str(input_list[i])
-        cnt = 0
-        for j in range(N):
-            if(input_list[i][j] == '.'):
-                cnt = cnt + 1
-                if(cnt >= 2):
-                    total_cnt = total_cnt + 1
-                    break
-            else : 
-                cnt = 0
-    return total_cnt
+datas = [1,10,5,8,7,6,4,3,2,9]
+data_len = len(datas)
 
-def sero_count():
-    return False
+for i in range(data_len):
+    for j in range(i,data_len):
+        if(datas[i] > datas[j]):
+            datas[i], datas[j] = datas[j], datas[i]
 
-N = int(input())
-if __name__ == "__main__":
-
-    input_list = [list(input()) for _ in range(N)]
-    garo_cnt = garo_count(input_list)
-    print(garo_cnt)
-
+print(datas)
