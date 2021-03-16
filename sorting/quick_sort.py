@@ -12,10 +12,10 @@ def quick_sort(start, end):
     right = end
     while left <= right:
         # Until finding an element bigger than the pivot,
-        while left <= end and data[left] <= data[pivot]:
+        while left <= end and data[left] <= data[pivot]: # 여기랑
             left += 1
         # Until finding an element smaller than the pivot,
-        while right > start and data[right] >= data[pivot]:
+        while right > start and data[right] >= data[pivot]: # 여기 바꿔주면 내림차순
             right -= 1
         if left > right: # If two elements miss each other,
             data[right], data[pivot] = data[pivot], data[right]
