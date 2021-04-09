@@ -1,10 +1,12 @@
-from bisect import bisect_left, bisect_right
+from bisect import bisect_left, bisect_right, bisect
 
 a = [1,2,4,4,5]
-x = 4
+x = 5
+
 
 print(bisect_left(a,x))
 print(bisect_right(a,x))
+print(bisect(a,x))#right랑 동일한듯
 
 def count_by_range(b , left_value, right_value):
     left_index = bisect_left(b, left_value)
