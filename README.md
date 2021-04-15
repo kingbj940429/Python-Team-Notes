@@ -8,11 +8,11 @@
 
 ### Sorting
 
-* [Selection Sort](/Sorting/selection_sort.py)
-* [Insertion Sort](/Sorting/insertion_sort.py)
-* [Quick Sort](/Sorting/quick_sort.py)
-* [Counting Sort](/Sorting/counting_sort.py)
-* [Python Sort Library](/Sorting/python_sort_library.py)
+* [Selection Sort](/sorting/selection_sort.py)
+* [Insertion Sort](/sorting/insertion_sort.py)
+* [Quick Sort](/sorting/quick_sort.py)
+* [Counting Sort](/sorting/counting_sort.py)
+* [Python Sort Library](/sorting/python_sort_library.py)
 
 ### Searching
 
